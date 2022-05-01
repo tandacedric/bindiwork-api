@@ -9,7 +9,7 @@
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "engines": {
-    "node": "8 || 12 || 14 || 16 || 17"
+    "node": "8.0.x"
   },
   "scripts": {
     "build": "lb-tsc",
