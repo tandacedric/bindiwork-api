@@ -8,6 +8,9 @@ import {Entity, model, property} from '@loopback/repository';
 //import {UserCredentials} from './user-credentials.model';
 //import {ShoppingCart} from './shopping-cart.model';
 
+
+
+//https://loopback.io/doc/en/lb4/MongoDB-connector.html#property-scope pour les objectId sur les relations
 @model({
   settings: {
     indexes: {
@@ -26,6 +29,7 @@ export class User extends Entity {
   @property({
     type: 'string',
     id: true,
+    mongodb: {dataType: 'ObjectId'}
   })
   id: string;
 
