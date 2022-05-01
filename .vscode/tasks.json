@@ -5,7 +5,7 @@
   "tasks": [
     {
       "label": "Watch and Compile Project",
-      "type": "shell",
+      "type": "shell",    
       "command": "npm",
       "args": ["--silent", "run", "build:watch"],
       "group": {
