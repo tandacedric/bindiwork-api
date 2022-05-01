@@ -4,7 +4,11 @@
   "description": "L&#39;api de Bindi work fait avec lookback4",
   "keywords": [
     "loopback-application",
-    "loopback"
+    "loopback",
+    "BindiWork",
+    "Nodejs",
+    "rest",
+    "api"
   ],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -39,10 +43,10 @@
   },
   "repository": {
     "type": "git",
-    "url": ""
+    "url": "https://github.com/tandacedric/bindiwork-api.git"
   },
   "author": "Cedric Tanda <tandacedri@gmail.com>",
-  "license": "",
+  "license": "UNLICENSED",
   "files": [
     "README.md",
     "dist",
